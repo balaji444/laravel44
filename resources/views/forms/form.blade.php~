@@ -80,8 +80,7 @@
 </style>
 <script type="text/javascript" language="javascript">
     $(document).ready(function () {
-                
-        alert('Hi');
+                       
 $("#contact").validate({
     // Specify validation rules
     rules: {
