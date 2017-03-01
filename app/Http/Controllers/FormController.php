@@ -91,8 +91,7 @@ class FormController extends Controller
     public function contactsView($id)
     {
        
-        $contacts = DB::table('contacts')->where('id', $id)->first();
-        //dd($contacts);
+        $contacts = DB::table('contacts')->where('id', $id)->first();        
         return view('forms.contactsview')->with(compact('contacts'));
     }
 }
